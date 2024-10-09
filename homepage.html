@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>homepage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 	<link rel="stylesheet" type="text/css" href="mediaquery.css">
+	<style type="text/css">
+		body{
+/*			width: 100%;*/
+		}
+		.pin{
+			background-color:darkblue ;
+			width: 100%;
+			float: left;
+			height: 40px;
+			color: white;
+			padding-top: 20px;
+			padding-left: 20px;
+		}
+		.pin1{
+			width: 75%;
+			float: left;
+			height: 50px;
+			margin-left: 27px;
+		}
+		.pin1 i{
+			color: white;
+			padding-left: 10px;
+		}
+		.pin1 b{
+			margin-left: 10px;
+		}
+		.pin2{
+			width: 20%;
+			float: left;
+			height: 50px;
+		}
+		.pin2 a{
+			background-color:darkblue ;
+			padding:5px;
+			border-radius: 50%;
+			color: white;
+			width: 20px;
+			margin-left: 5px;
+			height: 20px;
+			line-height: 20px;
+			display: inline-block;
+			text-align: center;
+			border:2px solid silver ;
+		}
+		.image{
+			background-image: url('images/img 3.jpg');
+			height: 520px;
+			width: 100%;
+			float: left;
+/*			overflow: hidden;*/
+		}
+		.cover{
+			background-color: rgba(5, 0, 4, 0.7);
+			height: 500px;
+			width: 100%;
+			float: left;
+			padding-top: 25px;
+			color: white;
+		}
+		.cover1{
+			width: 40%;
+			float: left;
+			height: 50px;
+			padding-left: 60px;
+		}
+		.cover1 b{
+			font-size: 25px;
+		}
+		.cover2{
+			width: 40%;
+			float: left;
+			height: 50px;
+		}
+		.cover2 a{
+			text-decoration: none;
+			color: white;
+			margin-left: 15px;
+			font-size: 20px;
+		}
+		.cover2 a:hover{
+			border-bottom: 2px solid dodgerblue;
+			color: dodgerblue;
+			padding-bottom: 10px;
+		}
+		.cover3{
+			width: 15%;
+			float: left;
+			height: 50px;
+		}
+		.cover3 a{
+			text-decoration: none;
+			background-color: deepskyblue;
+			color: white;
+			padding: 10px 14px;
+		}
+		.border{
+			background-color: gainsboro;
+			width: 100%;
+			float: left;
+/*			border-radius:8px ;*/
+			height: 1px;
+			margin-top: 15px;
+
+		}
+		.border i{
+			height: 1px;
+			width: 44%;
+			float: left;
+			background-color: gainsboro;
+			border-radius: 10px;
+		}
+		.border b{
+			height: 1px;
+			width: 7%;
+			float: left;
+			background-color: deepskyblue;
+		}
+		.arrow{
+			width: 100%;
+			float: left;
+			height: 340px;
+		}
+		.arrow1{
+			width: 5%;
+			float: left;
+			margin-top: 120px;
+			padding-left: 60px;
+		}
+		.arrow2{
+			width: 82%;
+			float: left;
+			text-align: center;
+			margin-top: 40px;
+		}
+		.arrow2 h1{
+			font-size: 50px;
+			font-family:sans-serif;
+			margin-top: -4px;
+		}
+		.arrow2 a{
+			text-decoration: none;
+			padding: 14px 16px;
+			font-family: sans-serif;
+			color: white;
+			margin-left: 20px;
+		}
+		.arrow3{
+			width: 5%;
+			float: left;
+			height: 100px;
+			margin-top: 120px;
+		}
+		.box{
+			width: 100%;
+			float: left;
+			height: 3500px;
+			padding-left: 70px;
+			padding-right: 80px;
+			font-family: sans-serif;
+		}
+		.box1{
+			width: 30%;
+			float: left;
+			background-color: dodgerblue;
+			height: 90px;
+			padding-top: 30px;
+			color: white;
+			margin-top: -64px;
+		}
+		.object{
+			width: 17%;
+			height: 33px;
+
+			float: left;
+			background-color: white;
+			margin-left: 90px;
+			padding-top: 17px;
+			text-align: center;
+/*			margin: auto;*/
+		}
+		.text{
+			width: 50%;
+			float: left;
+			margin-left: 25px;
+		}
+		.body{
+			width: 100%;
+			float: left;
+			margin-top: 130px;
+			height: 500px;
+/*			background-color: green;*/
+		}
+		.body1{
+			width: 50%;
+			float: left;
+			height: 400px;
+		}
+		.body2{
+			width: 30%;
+			float: left;
+			height: 400px;
+		}
+		/* .if{
+			border-bottom: 2px solid dodgerblue;
+			border-width: 4px;
+			color: black;
+		}*/
+		.if a{
+			text-decoration: none;
+			color: black;
+		}
+		.if a:hover{
+			border-bottom: 2px solid dodgerblue;
+			color: black;
+			padding-bottom: 10px;
+			border-width: 4px;
+		}
+		.tick{
+			width: 100%;
+			float: left;
+		}
+		.tick1{
+			width: 50%;
+			float: left;
+			margin-top: 10px;
+		}
+		.check{
+			width: 100%;
+			float: left;
+			margin-top: 20px;
+		}
+		.call1{
+			width:10%;
+			height: 35px;
+			background-color: dodgerblue;
+			float: left;
+			text-align: center;
+			padding-top: 20px;
+		}
+		.call2{
+			width: 40%;
+			margin-left: 15px;
+			float: left;
+			height:35px ;
+		}
+		.call3{
+			width: 100%;
+			float: left;
+			margin-top: 30px;
+		}
+		.call3 a{
+			text-decoration: none;
+			padding: 14px 16px;
+			color: white;
+			background-color: dodgerblue;
+		}
+		.nav{
+			width:100% ;
+			float: left;
+			margin-top: 90px;
+			height: 600px;
+		}
+		.nav h3{
+			font-size: 30px;
+			margin-top:-4px;
+			width: 100%;
+		}
+		.line b{
+			width:44px ;
+			height: 3px;
+			background-color: dodgerblue;
+			float: left;
+			margin-left: 600px;
+		}
+		.line i{
+			width:67px ;
+			height: 3px;
+			margin-left: 10px;
+			background-color:dodgerblue ;
+			float: left;
+		}
+		.line{
+			width:100% ;
+			float: left;
+			margin-top:-20px ;
+		}
+		.nav1{
+			width: 100%;
+			float: left;
+			margin-top: 30px;
+		}
+		.nav2{
+			width: 30%;
+			float: left;
+			height: 390px;
+		}
+		.nav2 h4{
+			font-size: 20px;
+		}
+		.nav3 i{
+			color: white;
+			text-align: center;
+		}
+		.nav3{
+			width:15% ;
+			height: 35px;
+			background-color: dodgerblue;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.aside{
+			width: 100%;
+			float: left;
+			margin-top: 100px;
+			height: 470px;
+
+		}
+		.aside1{
+			width: 50%;
+			float: left;
+		}
+		.aside2{
+			width: 40%;
+			float: left;
+		}
+		form{
+			width:80% ;
+			height:370px ;
+			background-color: dodgerblue;
+			padding: 35px;
+			border: none;
+		}
+		.aside2 input{
+			background-color: white;
+			height: 50px;
+			width: 95%;
+			border: none;
+			padding-left: 13px;
+		}
+		.aside2 select{
+			width: 99%;
+			height: 50px;
+			border: none;
+			padding-left: 13px;
+		}
+		.aside2 textarea{
+			width:95% ;
+			height: 65px;
+			border: none;
+			padding-left: 13px;
+		}
+		.aside2 h3{
+			background-color: black;
+			width: 98%;
+			height: 43px;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.aside2 a{
+			text-decoration: none;
+			color: white;
+		}
+		.aside1 h3{
+			font-size: 30px;
+			margin-top: -4px;
+			font-family: sans-serif;
+		}
+		.aside3 b{
+			width:47px ;
+			height: 3px;
+			background-color: dodgerblue;
+			float: left;
+		}
+		.aside3 i{
+			width:47px ;
+			height: 3px;
+			margin-left: 10px;
+			background-color:dodgerblue ;
+			float: left;
+		}
+		.nav4box{
+			width: 26%;
+			float: left;
+			padding: 25px;
+			background-color:powderblue;
+			margin-left: ;
+			height: 320px;
+		}
+		.navbox{
+			width: 100%;
+			float: left;
+			height: 120px;
+			border-bottom:1px solid gray ;
+		}
+		.navbox1{
+			width: 35%;
+			float: left;
+		}
+		.navbox2{
+			width: 65%;
+			float: left;
+			margin-bottom: 50px;
+		}
+		.sidebar{
+			width: 100%;
+			float: left;
+			text-align: center;
+			margin-top: -20px;
+		}
+		.sidebar b{
+			width: 2%;
+			height: 10px;
+			background-color:dodgerblue ;
+			float: left;
+			margin-left: 550px;
+		}
+		.sidebar i{
+			width: 1%;
+			float: left;
+			height: 10px;
+			background-color:grey;
+			margin-left: 10px;
+		}
+		.sidebar1{
+			width:100% ;
+			float: left;
+			margin-top: 30px;
+
+		}
+		.sidebar2{
+			width: 30%;
+			float: left;
+			margin-left: 15px;
+/*			background-color: lightblue;*/
+
+		}
+		.sidebar3{
+		 	text-align: center;
+		 	background-color:lightblue;
+		 	width: 76%;
+		 	height: 100px;
+		 	margin-top: -31px;
+		}
+		.sidebar3 h4{
+			padding-top: 20px;
+			font-size: 20px;
+			color: dodgerblue;
+		}
+		.sidebar3 p{
+			margin-top:-10px ;
+		}
+		.footer{
+			background-color:navy;
+			width:100%;
+			height: 300px;
+			margin-top: -100px;
+			float: left;
+			padding-left: 80px;
+			position:static;
+			
+		}
+		.footer1{
+			width:23%;
+			height: 310px;
+			float: left;
+			color: white;
+			padding-top: 50px;
+			position:relative;
+			z-index:2;
+		}
+		.footer2{
+			width: 14%;
+/*			height: 250px;*/
+			float: left;
+			width: 300px;
+			padding-left:30px ;
+			color: white;
+		}
+		.footer1 p{
+			font-size: 18px;
+			padding-top: 10px;
+		}
+		.signup input[type=email]{
+			width: 60%;
+			height: 40px;
+			background-color: white;
+			font-size: 22px;
+			border: none;
+		}
+		.signup{
+			padding-left: 20px;
+			margin-top: 30px;
+		}
+		.signup input[type=submit]{
+			background-color:darkblue;
+			color: white;
+			font-size: 22px;
+			width: 30%;
+			height: 42px;
+
+		}
+		.location-icon{
+			color: dodgerblue;
+			
+		}
+		.footer2 h3{
+			font-size:30px ;
+		}
+		.measure{
+			background-color: dodgerblue;
+			height:3px;
+			width:30%;
+			border-radius: 10px;
+			float: left;
+			margin-top: -15px;
+		}
+		.measure b{
+			background-color: dodgerblue;
+			width:40% ;
+			height:3px;
+			float: left;
+		}
+		.measure i{
+			width: 7%;
+			height: 3px;
+			background-color: white;
+			float: left;
+		}
+		.measurelink{
+			margin-top: 27px;
+		}
+		.measurelink a{
+			padding: 10px;
+			background-color: dodgerblue;
+			margin-left: 15px;
+			color: white;
+		}
+		.quicklink{
+			margin-top: 40px;
+			line-height: 30px;
+			font-family: sans-serif;
+		}
+		.quicklink a{
+			margin-top: 39px;
+		}
+		.quicklink i{
+			color: dodgerblue;
+		}
+		.last{
+			background-color:navy;
+			width: 100%;
+			float: left;
+			height: 60px;
+			z-index: -1;
+		}
+		.last0{
+			background-color:rgba(0, 0, 0, 0.7);
+			width: 100%;
+			height: 60px;
+			float: left;
+			padding-left: 80px;
+		}
+		.last2{
+			width:74% ;
+			float: left;
+		}
+
+		.last2 p{
+			text-align: center;
+			color: white;
+			margin-left: 440px;
+		}
+		.last2 a{
+			text-decoration: none;
+			color: white;
+
+		}
+		.up{
+			padding: 20px;
+			background-color: rgba(0, 0, 0, 0.7);
+		}
+
+		@media screen and (max-width: 700px){
+			.pin{
+				height: 80px;
+				width: 100%;
+			}
+			.pin1{
+				width: 100%;
+			}
+			.pin2{
+				width: 100%;
+			}
+			.pin2 a{
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+			}
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="pin">
+		<div class="pin1">
+			<b><i class="fas fa-location-dot"></i> 223 Nnebisi Road,Asaba,Delta State</b> <b><i class="fas fa-phone"></i> +2348102963219</b> <b><i class="fas fa-envelope"></i> info@cyberworks.com</b>
+		</div>
+		<div class="pin2">
+			<a href="#"><i class="fab fa-twitter" style="background-color:none ;"></i></a><a href="#"><i class="fab fa-facebook-f facebook-icon"></i></a> <a href="#"><i class="fab fa-linkedin-in linkedin-icon"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+	<div class="image">
+		<div class="cover">
+			<div class="cover1">
+				<i class="fas fa-robot cyber-work-icon" style="color:white;font-size: 20px;"></i>
+				<b>CyberWork</b>
+			</div>
+			<div class="cover2">
+				<b><a href="homepage.html">Home</a></b>
+				<a href="Aboutcyber.html">About</a>
+				<a href="ourservicespage.html">Our Services</a>
+				<a href="pricing.html">Pricing</a>
+				<a href="contactuspage.html">Contact</a>
+				<i class="fas fa-magnifying-glass" style="color:deepskyblue; font-size: 20px;margin-left: 40px;"></i>
+			</div>
+			<div class="cover3">
+				<a href="#">Get Quotation</a>
+			</div>
+			<div class="border">
+				<i></i>
+				<b></b>
+			</div>
+			<div class="arrow">
+				<div class="arrow1">
+					<a href="#" style="color:white;"><i class="fas fa-chevron-left" style="font-size: 30px;"></i></a>
+				</div>
+				<div class="arrow2">
+					<h3>CREATIVITY & INNOVATIONS</h3>
+					<h1>Grow Your Business <br> with Creative Tools</h1>
+					<h5><a href="#" style="background-color:deepskyblue";>Free Quote</a> <a href="#" style="border: 2px solid gainsboro;">Contact Us</a></h5>
+				</div>
+				<div class="arrow3">
+					<a href="#" style="color:white;"><i class="fas fa-chevron-right" style="font-size:30px;"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="box">
+			<div class="box1">
+				<div class="object">
+					<i class="fas fa-users" style="color:dodgerblue;"></i>
+				</div>
+				<div class="text">
+					<b>Happy Clients</b><br>
+					<b style="font-size:35px;">226</b>
+				</div>
+			</div>
+			<div class="box1" style="background-color:whitesmoke;">
+				<div class="object" style="background-color:dodgerblue;">
+					<i class="fas fa-check" style="color:white;"></i>
+				</div>
+				<div class="text">
+					<b style="color: dodgerblue;">Projects Done</b><br>
+					<b style="color: black;font-size: 35px;">300</b>
+				</div>
+			</div>
+			<div class="box1">
+				<div class="object">
+					<i class="fas fa-award" style="color:dodgerblue;"></i>
+				</div>
+				<div class="text">
+					<b>Awards</b><br>
+					<b style="font-size:35px;">2</b>
+				</div>
+			</div>
+			<div class="body">
+				<div class="body1">
+					<b style="color:dodgerblue;line-height: 30px;">ABOUT US</b>
+					<h3 style="font-size:30px;line-height: 35px;margin-top: -1px;">Do you need assistance getting <br><span class="if"><a href="#" class="if">your</a></span> <span class="if"><a href="#" class="if">site</a></span> up & running in 2024?</h3>
+					<p>We're a creative and innovative agency based in Asaba,Delta State,and we help<br> businesses expand their online presence by using innovative,high quality <br>solutions.Our technological expertise and knowledge of the industry will assist you <br>in realising your digital ambitions.Let's discuss the details of your businesses and see<br> how we can help.</p>
+					<div class="tick">
+						<div class="tick1">
+							<b style="margin-right:10px;color: dodgerblue;"><i class="fas fa-check"></i></b><b>Award Winning</b><br>
+							 <p><b style="margin-right:10px;color: dodgerblue;"><i class="fas fa-check"></i></b><b>Professional Staff</b></p>
+						</div>
+						<div class="tick1">
+							<b style="margin-right: 10px;color: dodgerblue;"><i class="fas fa-check"></i></b><b>24/7 support</b><br>
+							 <p><b style="margin-right: 10px;color: dodgerblue;"><i class="fas fa-check"></i></b><b> Fair prices</b></p>
+						</div>
+					</div>
+					<div class="check">
+							<div class="call1">
+								<b><i class="fas fa-phone" style="color:white;"></i></b>
+							</div>
+							<div class="call2">                                                                                                        
+								<b>Call to ask any question</b><br>
+								<p><b style="color:dodgerblue;font-size: 20px;">080 3933 9295</b></p>
+							</div>
+					</div>
+					<div class="call3">
+						<h4><a href="#">Request A Quote</a></h4>
+					</div>
+				</div>
+				<div class="body2">
+					<img src="images/homepage.png" width="520px" height="470px">
+				</div>
+			</div>
+			<div class="nav">
+					<p style="color:dodgerblue;text-align: center;font-weight: bold;">WHY CHOOSE US</p>
+					<h3 style="text-align: center;">We Are Here to Grow Your<br> Business Exponentially</h3>
+					<div class="line">
+						<b></b>
+						<i></i>
+					</div>
+				<div class="nav1">
+					<div class="nav2">
+						<div class="nav3">
+							<i class="fas fa-dice"></i>
+						</div>
+						<h4>8+ Years of success</h4>
+						<p>It all started in july 2015 with a small<br> company that had only two employees</p>
+						<div class="nav3" style="margin-top: 34px;">
+							<i class="fas fa-award"></i>
+						</div>
+						<h4>300+ Completed Projects</h4>
+						<p>From branding and website design to social <br>media,our team work diligently together on <br>a wide range of collabrative projects</p>
+					</div>
+					<div class="nav2">
+						<img src="images/img 2.jpg" width="360px" height="390px">
+					</div>
+					<div class="nav2">
+						<div class="nav3">
+							<i class="fas fa-users"></i>
+						</div>
+						<h4>Professional Staff</h4>
+						<p>Workng closely with our team of experts <br>help put your business in front it prospects<br> and clients</p>
+						<div class="nav3" style="margin-top:34px;">
+							<i class="fas fa-phone"></i>
+						</div>
+						<h4>24/7 Support</h4>
+						<p>With us you assured of a time technical <br>support for your business applicatons.</p>
+					</div>
+				</div>
+			</div>
+			<div class="aside">
+				<div class="aside1">
+					<p style="color:dodgerblue;font-weight: bold;">REQUEST A QUOTE</p>
+					<h3 style="padding-bottom: px;">Need A Free Quote? Please Feel <br> Free to Contact Us</h3>
+					<div class="aside3" style="margin-top:-19px;">
+						<b></b>
+						<i></i>
+					</div>
+					<h4 style="padding-top:45px;"><b><i class="fas fa-forward" style="color:dodgerblue;margin-right: 10px;"></i> Reply within 24 hours</b> <b style="margin-left: 70px;padding-top: 30px;"><i class="fas fa-phone" style="color:dodgerblue;margin-right: 10px;"></i> 24 hrs telephone support</b></h4>
+					<p style="padding-top:10px;">We cultivate long-term partnerships with othercompanies that share our values.As<br> a web design service,we collaborate closely with our customers to discover and<br> develop ndividualised web design solutions for startup businesses,small and<br> medium-sized businesses,and multinational corporations.</p>
+					<div class="check">
+							<div class="call1" style="width:50px;">
+								<b><i class="fas fa-phone" style="color:white;"></i></b>
+							</div>
+							<div class="call2">
+								<b>Call to ask any question</b><br>
+								<p><b style="color:dodgerblue;font-size: 20px;">+23481 0296 3219</b></p>
+							</div>
+					</div>
+				</div>
+				<div class="aside2">
+					<form>
+						<p><input type="name" placeholder="Your Name"></p>
+						<p><input type="number" placeholder="Your phone"></p>
+						<p><select><option>Select A Service</option></select></p>
+						<p><textarea placeholder="Message"></textarea></p>
+						<h3><a href="#">Request A Quote</a></h3>
+					</form>
+
+				</div>
+			</div>
+			<div class="nav">
+				<p style="color:dodgerblue;text-align: center;font-weight: bold;">TESTIMONIAL</p>
+				<h3 style="text-align: center;">What Our Clients Say About<br>Our Digital Services</h3>
+				<div class="line">
+					<b></b>
+					<i></i>
+				</div>
+					<div class="nav4box">
+						<div class="navbox">
+							<div class="navbox1">
+								<img src="images/img 10.jpg" width="100px" height="100px">
+							</div>
+							<div class="navbox2">
+								<p><b style="color:dodgerblue;">Branson Adejo</b></p>
+								<p>CEO-DIGITEX</p>
+							</div>
+							<p style="font-size:20px;">Cyberwork Technologies has been <br>an amazing and trustworthy <br>technical partner to us.With more<br> than a year of what we can call a<br> highly profitable and value-loaded <br>relationship,they have continued to <br>give us the best of partnership<br> eperience.</p>
+						</div>
+					</div>
+					<div class="nav4box" style="height:359px; background-color:ghostwhite;border: 30px thick rgba(0, 0, 2, 0.6);">
+						<div class="navbox">
+							<div class="navbox1">
+								<img src="images/img 6.jpg" width="100px" height="100px">
+							</div>
+							<div class="navbox2">
+								<p><b style="color:dodgerblue;">Nimota Dekpe</b></p>
+								<p>DIRECTOR-IDEALIT CENTER</p>
+							</div>
+							<p style="font-size: 20px;">Cyberwork Technologies has been <br>an amazing and trustworthy <br>technical partner to us.With more<br> than a year of what we can call a<br> highly profitable and value-loaded <br>relationship,they have continued to <br>give us the best of partnership<br> eperience.</p>
+						</div>
+					</div>
+					<div class="nav4box">
+						<div class="navbox">
+							<div class="navbox1">
+								<img src="images/img 8.jpg" width="100px" height="100px">
+							</div>
+							<div class="navbox2">
+								<p><b style="color:dodgerblue;">Ken Eboigbe</b></p>
+								<p>ESTATE SURVEYOR</p>
+							</div>
+								<p style="font-size:20px;">Cyberwork Technologies handled<br> the design of three websites under<br> the umbrella of Alexander Stephen<br> 	IQ consulting.They are very<br> profesional,detailed and thorough<br> in their work</p>
+						</div>
+					</div>
+			</div>
+			<div class="sidebar">
+				<b></b><i></i><i></i><i></i>
+			</div>
+			<div class="nav">
+				<p style="color:dodgerblue;text-align: center;font-weight: bold;">TEAM MEMBERS</p>
+				<h3 style="text-align: center;">Professional Staff Ready to<br>Help Your Business</h3>
+				<div class="line">
+					<b></b>
+					<i></i>
+				</div>
+				<div class="sidebar1">
+					<div class="sidebar2">
+						<img src="images/aboutimg.png" width="300px" height="300px">
+						<div class="sidebar3">
+							<h4>Abraham Osobajo</h4>
+							<p>DIRECTOR</p>
+						</div>
+					</div>
+					<div class="sidebar2">
+						<img src="images/boss.png" width="300px" height="300px">
+						<div class="sidebar3">
+							<h4>Micheal Austin</h4>
+							<p>LEAD DEVELOPER</p>
+						</div>
+					</div>
+					<div class="sidebar2">
+						<img src="images/sis.png" width="300px" height="300px">
+						<div class="sidebar3">
+							<h4>Awaritoma Phebean</h4>
+							<p>HUMAN RESOURCE</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="footer">
+				<div class="footer1" style="background-color:dodgerblue;">
+					<b style="font-size:35px;padding-left: 50px;"><i class="fas fa-robot" style="color:white;"></i></b><b style="margin-left:10px;font-size: 30px;">CyberWork</b>
+					<p style="text-align:center;">Our 8+ year's experience in the Digital<BR> World we ensures we know what is <br>required to scale your business.We <br>with ambitious companies to <br>grow and increase sales and visibility <br>by improving online traffic & leads.</p>
+					<div class="signup">
+						<b><input type="email" placeholder="Your Email"><input type="submit" value="sign up"></b>
+					</div>
+				</div>
+				<div class="footer2">
+					<h3>Get In Touch</h3>
+					<div class="measure">
+						<b></b>
+						<i></i>
+					</div>
+					<div class="measurearrow">
+						<b><i class="fas fa-location-dot location-icon"></i></b><b style="margin-left:10px;">223 Nnebisi Road,<br><span style="padding-left: 20px;">Asaba,</span>Delta State</b>
+					</div>
+					<div class="measurearrow" style="padding-top:15px;">
+						<b><i class="fas fa-envelope envelope-icon" style="color:dodgerblue;"></i></b><b style="margin-left:10px;">info@cyberworks.com</b>
+					</div>
+					<div class="measurearrow" style="padding-top:15px;">
+						<b><i class="fas fa-phone" style="color:dodgerblue;"></i></b><b style="margin-left:10px;">08039339295</b>
+					</div>
+					<div class="measurelink">
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="footer2">
+					<h3>Quick Links</h3>
+					<div class="measure">
+						<b></b>
+						<i></i>
+					</div>
+					<div class="quicklink">
+						<a href="#"><i class="fas fa-arrow-right"></i><a style="margin-left:10px;">Home</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i><a style="margin-left:10px;">About Us</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i><a style="margin-left:10px;">Our Services</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i><a style="margin-left:10px;">Pricing</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i><a style="margin-left:10px;">FAQ</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i><a style="margin-left:10px;">Contact Us</a>
+					</div>
+				</div>
+				<div class="footer2">
+					<h3>Popular Links</h3>
+					<div class="measure">
+						<b></b>
+						<i></i>
+					</div>
+					<div class="quicklink" style="font-family: sans-serif;">
+						<a href="#"><i class="fas fa-arrow-right"></i></a><a style="margin-left:10px;">Pricing</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i></a><a style="margin-left:10px;">Help Desk</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i></a><a style="margin-left:10px;">Latest Blog</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i></a><a style="margin-left:10px;">We We Are</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i></a><a style="margin-left:10px;">Meet The Team</a><br>
+						<a href="#"><i class="fas fa-arrow-right"></i></a><a style="margin-left:10px;">Contact Us</a>
+					</div>
+				</div>
+			</div>
+			<div class="last">
+				<div class="last0">
+					<div class="last1">
+					
+					</div>
+					<div class="last2">
+						<p>2023 &copy <a href="#"><u>Cyberworks Technology.</u></a> All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		
+</body>
+</html>

@@ -1,0 +1,128 @@
+.footer{
+			background-color:navy;
+			width:100%;
+			height: 300px;
+			margin-top: -100px;
+			float: left;
+			padding-left: 80px;
+			
+		}
+		.footer1{
+			width:23%;
+			height: 310px;
+			float: left;
+			color: white;
+			padding-top: 50px;
+			z-index: 2;
+			position: relative;
+		}
+		.footer2{
+			width: 14%;
+			float: left;
+			width: 300px;
+			padding-left:30px ;
+			color: white;
+		}
+		.footer1 p{
+			font-size: 18px;
+		}
+		.signup input[type=email]{
+			width: 60%;
+			height: 40px;
+			background-color: white;
+			font-size: 22px;
+			border: none;
+		}
+		.signup{
+			padding-left: 20px;
+			margin-top: 35px;
+		}
+		.signup input[type=submit]{
+			background-color:navy;
+			color: white;
+			width:30% ;
+			height: 42px;
+			font-size: 22px;
+		}
+		.location-icon{
+			color: dodgerblue;
+			
+		}
+		.footer2 h3{
+			font-size:30px ;
+		}
+		.measure{
+			background-color: dodgerblue;
+			height:3px;
+			width:30%;
+			border-radius: 10px;
+			float: left;
+			margin-top: -15px;
+		}
+		.measure b{
+			background-color: dodgerblue;
+			width:40% ;
+			height:3px;
+			float: left;
+		}
+		.measure i{
+			width: 7%;
+			height: 3px;
+			background-color: white;
+			float: left;
+		}
+		.measurelink{
+			margin-top: 27px;
+/*			padding-left: -10px;*/
+		}
+		.measurelink a{
+			padding: 10px;
+			background-color: dodgerblue;
+			margin-left: 15px;
+			color: white;
+		}
+		.quicklink{
+			margin-top: 40px;
+			line-height: 30px;
+/*			padding-top: 40px;*/
+			font-family: sans-serif;
+		}
+		.quicklink a{
+			margin-top: 39px;
+		}
+		.quicklink i{
+			color: dodgerblue;
+		}
+		.last{
+			background-color:navy;
+			width: 100%;
+			float: left;
+			height: 60px;
+			z-index: 1;
+		}
+		.last0{
+			background-color:rgba(0, 0, 0, 0.7);
+			width: 100%;
+			height: 60px;
+			float: left;
+			padding-left: 80px;
+		}
+		.last2{
+			width:74% ;
+			float: left;
+		}
+
+		.last2 p{
+			text-align: center;
+			color: white;
+			margin-left: 550px;
+		}
+		.last2 a{
+			text-decoration: none;
+			color: white;
+
+		}
+		.up{
+			padding: 20px;
+			background-color: rgba(0, 0, 0, 0.7);
+		}

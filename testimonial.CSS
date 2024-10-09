@@ -1,0 +1,55 @@
+.nav{
+			width:100% ;
+			float: left;
+			margin-top: 90px;
+			height: 600px;
+		}
+		.nav h3{
+			font-size: 30px;
+			margin-top:-4px;
+			width: 100%;
+		}
+		.line b{
+			width:44px ;
+			height: 3px;
+			background-color: dodgerblue;
+			float: left;
+			margin-left: 600px;
+		}
+		.line i{
+			width:67px ;
+			height: 3px;
+			margin-left: 10px;
+			background-color:dodgerblue ;
+			float: left;
+		}
+		.line{
+			width:100% ;
+			float: left;
+			margin-top:-20px ;
+		}
+		.nav4box{
+			width: 29%;
+			float: left;
+			background-color:powderblue;
+			margin-left: ;
+			height: 340px;
+			margin-top: 20px;
+		}
+		.navbox{
+			width: 92%;
+			float: left;
+			height: 120px;
+			padding-left: 30px;
+			padding-top: 30px;
+			border-bottom:1px solid gray ;
+		}
+		.navbox1{
+			width: 35%;
+			float: left;
+		}
+		.navbox2{
+			width: 65%;
+			float: left;
+			margin-bottom: 50px;
+		}

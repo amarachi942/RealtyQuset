@@ -1,0 +1,26 @@
+.aside2{
+	width: 40%;
+	float: left;
+}
+form{
+	width:35% ;
+	height:400px ;
+	background-color: dodgerblue;
+}
+.aside2 input{
+	background-color: white;
+	height: 20px;
+	width: 20%;
+}
+.aside2 textarea{
+	width:20% ;
+	height: 30px;
+}
+.aside2 a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	width: 20%;
+	height: 20px;
+	text-align: center;
+}

@@ -1,0 +1,48 @@
+.sidebar{
+			width: 100%;
+			float: left;
+			text-align: center;
+			margin-top: -20px;
+		}
+		.sidebar b{
+			width: 2%;
+			height: 10px;
+			background-color:dodgerblue ;
+			float: left;
+			margin-left: 550px;
+		}
+		.sidebar i{
+			width: 1%;
+			float: left;
+			height: 10px;
+			background-color:grey;
+			margin-left: 10px;
+		}
+		.sidebar1{
+			width:100% ;
+			float: left;
+			margin-top: 30px;
+
+		}
+		.sidebar2{
+			width: 30%;
+			float: left;
+			margin-left: 15px;
+/*			background-color: lightblue;*/
+
+		}
+		.sidebar3{
+		 	text-align: center;
+		 	background-color:lightblue;
+		 	width: 76%;
+		 	height: 100px;
+		 	margin-top: -31px;
+		}
+		.sidebar3 h4{
+			padding-top: 20px;
+			font-size: 20px;
+			color: dodgerblue;
+		}
+		.sidebar3 p{
+			margin-top:-10px ;
+		}

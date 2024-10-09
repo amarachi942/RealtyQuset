@@ -1,0 +1,70 @@
+.aside{
+			width: 100%;
+			float: left;
+			margin-top: 100px;
+			height: 470px;
+
+		}
+		.aside1{
+			width: 50%;
+			float: left;
+		}
+		.aside2{
+			width: 40%;
+			float: left;
+		}
+		form{
+			width:80% ;
+			height:370px ;
+			background-color: dodgerblue;
+			padding: 35px;
+			border: none;
+		}
+		.aside2 input{
+			background-color: white;
+			height: 50px;
+			width: 95%;
+			border: none;
+			padding-left: 13px;
+		}
+		.aside2 select{
+			width: 99%;
+			height: 50px;
+			border: none;
+			padding-left: 13px;
+		}
+		.aside2 textarea{
+			width:95% ;
+			height: 65px;
+			border: none;
+			padding-left: 13px;
+		}
+		.aside2 h3{
+			background-color: black;
+			width: 98%;
+			height: 43px;
+			padding-top: 20px;
+			text-align: center;
+		}
+		.aside2 a{
+			text-decoration: none;
+			color: white;
+		}
+		.aside1 h3{
+			font-size: 30px;
+			margin-top: -4px;
+			font-family: sans-serif;
+		}
+		.aside3 b{
+			width:47px ;
+			height: 3px;
+			background-color: dodgerblue;
+			float: left;
+		}
+		.aside3 i{
+			width:47px ;
+			height: 3px;
+			margin-left: 10px;
+			background-color:dodgerblue ;
+			float: left;
+		}

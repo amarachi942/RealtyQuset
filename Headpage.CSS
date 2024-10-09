@@ -1,0 +1,150 @@
+		.pin{
+			background-color:darkblue ;
+			width: 100%;
+			float: left;
+			height: 40px;
+			color: white;
+			padding-top: 20px;
+			padding-left: 20px;
+		}
+		.pin1{
+			width: 75%;
+			float: left;
+			height: 50px;
+			margin-left: 27px;
+		}
+		.pin1 i{
+			color: white;
+			padding-left: 10px;
+		}
+		.pin1 b{
+			margin-left: 10px;
+		}
+		.pin2{
+			width: 20%;
+			float: left;
+			height: 50px;
+		}
+		.pin2 a{
+			background-color:darkblue ;
+			padding:5px;
+			border-radius: 50%;
+			color: white;
+			width: 20px;
+			margin-left: 5px;
+			height: 20px;
+			line-height: 20px;
+			display: inline-block;
+			text-align: center;
+			border:2px solid silver ;
+		}
+		.image{
+			background-image: url('images/img 3.jpg');
+			height: 420px;
+			width: 100%;
+			float: left;
+		}
+		.cover{
+			background-color: rgba(5, 0, 4, 0.7);
+			height: 400px;
+			width: 100%;
+			float: left;
+			padding-top: 25px;
+			color: white;
+		}
+		.cover1{
+			width: 40%;
+			float: left;
+			height: 50px;
+			padding-left: 60px;
+		}
+		.cover1 b{
+			font-size: 25px;
+		}
+		.cover2{
+			width: 40%;
+			float: left;
+			height: 50px;
+		}
+		.cover2 a{
+			text-decoration: none;
+			color: white;
+			margin-left: 15px;
+			font-size: 20px;
+		}
+		.cover2 a:hover{
+			border-bottom: 2px solid dodgerblue;
+			color: dodgerblue;
+			padding-bottom: 10px;
+		}
+		.cover3{
+			width: 15%;
+			float: left;
+			height: 50px;
+		}
+		.cover3 a{
+			text-decoration: none;
+			background-color: deepskyblue;
+			color: white;
+			padding: 10px 14px;
+		}
+		.border{
+			background-color: gainsboro;
+			width: 100%;
+			float: left;
+			height: 1px;
+			margin-top: 15px;
+
+		}
+		.border i{
+			height: 1px;
+			width: 44%;
+			float: left;
+			background-color: gainsboro;
+			border-radius: 10px;
+		}
+		.border b{
+			height: 1px;
+			width: 7%;
+			float: left;
+			background-color: deepskyblue;
+		}
+		.down a{
+			padding:5px;
+			border-radius: 50%;
+			color: white;
+			width: 5px;
+			height: 5px;
+			display: inline-block;
+			text-align: center;
+			border:2px solid silver ;
+		}
+		.title{
+			width: 50%;
+			float: left;
+			text-align: center;
+			margin-left: 350px;
+			padding-top: 100px;
+		}
+		.home .service{
+			text-align: center;
+		}
+		.home{
+			float: left;
+		}
+		.service{
+			float: left;
+		}
+		.down{
+			float: left;
+		}
+		.hi{
+			width:20% ;
+			text-align: center;
+			margin-left: 280px;
+		}
+		.home a{
+			text-decoration: none;
+			color: white;
+			padding-right: 10px;
+		}
